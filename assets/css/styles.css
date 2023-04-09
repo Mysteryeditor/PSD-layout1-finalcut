@@ -1,0 +1,443 @@
+@font-face {
+    font-family: firstfont;
+    src: url(/assets/fonts/font.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(/assets/fonts/Quicksand-VariableFont_wght.ttf);
+}
+/* for the first layer */
+.heading {
+    background-image: url("/assets/images/bannerbg.png");
+    background-size: cover;
+    background-position: center;
+    font-family: "Quicksand";
+    font-weight: bolder;
+}
+
+.heading .col>h3 {
+    color: beige;
+    font-weight: bolder;
+    max-width: 80%;
+}
+
+.heading .col>h2 {
+    font-family: firstfont;
+    font-size: 80px;
+    color: #aab33c;
+    max-width: 60%
+}
+
+.heading ul>button {
+    background-color: #aab33c;
+    border-style: none;
+    font-family: "Quicksand";
+    font-weight: bolder;
+}
+
+/* for the second layer */
+
+.layer2 .container{
+    max-width: 40%;
+}
+
+.layer2 .container p{
+    max-width: 100%;
+    line-height: 37px;
+    text-transform: uppercase;
+    color:#404142 ;
+    font-weight:600;
+    font-size:30px;
+    font-family: "Quicksand";
+}
+
+/* for the cards in the layer3 */
+.layer3 .container .row .card img {
+    height: 150px;
+    width: 160px;
+}
+
+
+.layer3 .container .row .card p {
+    font-size: 24px;
+    line-height: 28px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+/* for the fourth layer */
+
+.layer4 .container .row .p1 {
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    max-width: 70%;
+}
+
+.layer4 .container .row .p2 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+.layer4 .layer4subcon{
+text-transform: uppercase;
+font-weight: 700;
+font-family: "Quicksand";
+width: 61%;
+}
+
+
+#layer5 {
+    background-color: rgba(170, 179, 60, 0.102);
+
+}
+
+#l5content1 {
+    font-size: 45px;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#l5content2 {
+    width: 646px;
+    height: 135px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#layer5content3,
+#l5content4 {
+    width: 646px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+
+#l5button {
+    width: 235px;
+    height: 47px;
+    background-color: #aab33c;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+    font-size: 18px;
+    border: none;
+}
+
+#rectanglebox {
+    position: absolute;
+    margin-left: -70px;
+    margin-top: 450px;
+}
+
+#fifteen {
+    position: absolute;
+    font-size: 50px;
+    margin-top: 460px;
+    margin-left: -45px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#years {
+    position: absolute;
+    margin-top: 477px;
+    font-size: 19px;
+    width: 20px;
+    line-height: 22px;
+    margin-left: 6px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* styles for the table */
+
+#tablehead {
+    background-color: #aab33c;
+    color: #ffffff;
+    font-family: "Quicksand";
+    font-size: 40px;
+
+
+
+}
+
+#tablesubhead {
+    font-size: 25px;
+}
+
+.textp {
+    width: 157px;
+    height: 27px;
+    font-size: xx-small;
+    font-family: "Quicksand";;
+
+}
+
+th {
+    height: 15px;
+}
+
+.table {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#price {
+    font-size: 16px;
+    font-family: "Quicksand";
+    font-weight: 600;
+}
+
+.table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(170, 179, 59, 0.3);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+.tblep {
+    /* white-space: pre-line; */
+    font-weight: 100;
+    font-size: xx-small;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#tblep2 {
+    color: #aab33c;
+    font-size: medium;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#pp{
+    color: #aab33c;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#tableend{
+white-space: pre-line;
+font-family: 'Quicksand', sans-serif;
+font-weight: 800;
+
+}
+
+/* for the layer 6 */
+#layer6{
+    background-image: url("/assets/images/layer6bg.png");
+    height:200px;
+    
+}
+
+#layer6 p,#layer6 a{
+    color: #404142;
+    font-weight: 600;
+    font-family: "Quicksand";
+    font-size: 30px;
+    text-decoration:none ;
+}
+/* 
+#layer7 .card{
+    height: 100px;
+    width:100px;
+} */
+#layer7 {
+    height: 272px;
+    margin-top: 30px;
+    position: relative;
+
+}
+
+#sublayer7 {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -20px;
+
+}
+
+#layer7 .card {
+    width: 250px;
+    height: 50px;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: -30px;
+
+}
+
+#layer7 .card img {
+    width: 21%;
+    height: 100%;
+}
+
+#layer7 .card-text {
+    padding-top: 2px;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+#layer8 {
+    height: 170px;
+    width: 100%;
+
+}
+
+#layer8content {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+#layer8div {
+    width: 100%;
+}
+
+
+
+#layer8button {
+    background-color: #aab33c;
+    color: #ffffff;
+    border: none;
+    width: 233px;
+    height: 50px;
+    margin-left: 500px;
+
+}
+
+#footer {
+    background-image: url('/assets/images/footerbg.png');
+   
+}
+
+#footerhead {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#footercon {
+
+    font-size: 14px;
+    line-height: 22px;
+    color: #404142;
+    font-weight: 400;
+    font-family: "Quicksand";
+    white-space: pre-line;
+}
+
+#footerrow1 a{
+
+    font-size: 10px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 400;
+    font-family: "Quicksand";
+    text-decoration: none;
+}
+
+#footerform input,#footerform form{
+    border: none;
+    white-space: pre-line;
+}
+
+#footerformbutton{
+    background-color: #aab33c;
+    border: none;
+    color: #ffffff;
+    width: 109px;
+    height:43px;
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+
+
+    #layer7 {
+        height: 800px;
+        margin-top: 30px;
+        position: relative;
+    
+    }
+    
+    #layer7 .card {
+        width: 250px;
+        height: 50px;
+        flex-direction: row;
+        margin-left: 60px;
+        margin-top: -30px;
+    
+    }
+    
+    #layer7 .card img {
+        width: 21%;
+        height: 100%;
+    }
+    
+    #layer7 .card-text {
+        padding-top: 2px;
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    #layer8button {
+        background-color: #aab33c;
+        color: #ffffff;
+        border: none;
+        width: 133px;
+        height: 50px;
+        margin-left: 200px;
+    
+    }
+
+    
+    
+    
+}
+
+@media screen and (min-width:320) and (max-width:1023) {
+    #rectanglebox {
+        display: none;
+    }
+    
+    #fifteen {
+        display: none;
+     
+    }
+    
+    #years {
+        display: none;
+    }
+
+    
+}
