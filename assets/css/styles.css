@@ -1,12 +1,18 @@
+/* the two fonts   */
+
+/* 00819 */
 @font-face {
     font-family: firstfont;
     src: url(/assets/fonts/font.ttf);
 }
 
+/* quicksand font */
 @font-face {
     font-family: Quicksand;
     src: url(/assets/fonts/Quicksand-VariableFont_wght.ttf);
 }
+/* the general css */
+
 
 /* for the first layer */
 .heading {
@@ -23,6 +29,8 @@
     max-width: 80%;
 }
 
+/* for the heading of layer1 */
+
 .heading .col>h2 {
     font-family: firstfont;
     font-size: 80px;
@@ -30,12 +38,16 @@
     max-width: 60%
 }
 
+/* button inside the navbar */
+
 .heading ul>button {
     background-color: #aab33c;
     border-style: none;
     font-family: "Quicksand";
     font-weight: bolder;
 }
+
+
 
 
 /* for the second layer */
@@ -54,13 +66,14 @@
     font-family: "Quicksand";
 }
 
+/* for the cards of the 3rd layer */
 #l3cards{
      background-color: rgb(229, 232, 196, 255); 
      width: 16rem; 
      height:16rem;
 }
 
-/* for the cards in the layer3 */
+
 .layer3 .container .row .card img {
     height: 150px;
     width: 160px;
@@ -103,7 +116,7 @@
     width: 61%;
 }
 
-
+/* the fifth layer */
 #layer5 {
     background-color: rgba(170, 179, 60, 0.102);
 
@@ -183,9 +196,6 @@
     color: #ffffff;
     font-family: "Quicksand";
     font-size: 40px;
-
-
-
 }
 
 #tablesubhead {
@@ -278,6 +288,8 @@ th {
     text-decoration: none;
 }
 
+/* for the layer7 */
+
 #layer7 {
     height: 272px;
     margin-top: 30px;
@@ -304,6 +316,8 @@ th {
     font-size: 12px;
     line-height: 10px;
 }
+
+/* the layer8 */
 
 #layer8 {
     height: 170px;
@@ -332,6 +346,8 @@ th {
     margin-left: 500px;
 
 }
+
+/* the subfooter */
 
 #footer {
     background-image: url('/assets/images/footerbg.png');
@@ -373,6 +389,8 @@ th {
     white-space: pre-line;
 }
 
+/* the main footer */
+
 #footerformbutton {
     background-color: #aab33c;
     border: none;
@@ -391,17 +409,13 @@ footer {
 
 }
 
-
-
-
-
 button {
     background-color: #aab33c;
     color: beige;
     border: none;
 }
 
-
+/* media query for medium and small devices */
 
 @media screen and (min-width:320px) and (max-width:767px) {
     .navbar-collapse {
@@ -410,10 +424,27 @@ button {
         margin-top: 380px;
         margin-left: 10px;
     }
+    
+    
+    .heading .col>h2 {
+        font-size: 50px;
+    }
+    
+    .heading ul>button {
+        background-color: #aab33c;
+        border-style: none;
+        font-family: "Quicksand";
+        font-weight: bolder;
+    }
 
     #layer2con {
         font-size: 15px;
         line-height: 20px;
+    }
+
+    #l3cards{
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -522,15 +553,10 @@ button {
     }
 
     #footerrow1 a {
-
         font-size: 15px;
         line-height: 33px;
         text-transform: uppercase;
-        color: #404142;
-        font-weight: 400;
-        font-family: "Quicksand";
         text-decoration: none;
-        /* white-space: pre-line; */
     }
 
     #footerform input,
@@ -547,11 +573,22 @@ button {
         height: 43px;
     }
 
+    #mainfootercon1{
+        font-size: 10px;
+    }
+
+    #mainfootercon2{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
 
 }
 
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+/* media queries for tablet size devices */
+
+@media screen and (min-width:768px) and (max-width:968px) {
     .navbar-collapse {
         position: absolute;
         z-index: 1;
@@ -676,9 +713,12 @@ button {
         height: 43px;
     }
 
+    #mainfootercon1{
+        font-size: 10px;
+    }
 
-
-
-
-
+    #mainfootercon2{
+        font-size: 10px;
+        margin-top: 15px;
+    }
 }
