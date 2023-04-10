@@ -54,6 +54,12 @@
     font-family: "Quicksand";
 }
 
+#l3cards{
+     background-color: rgb(229, 232, 196, 255); 
+     width: 16rem; 
+     height:16rem;
+}
+
 /* for the cards in the layer3 */
 .layer3 .container .row .card img {
     height: 150px;
@@ -272,11 +278,6 @@ th {
     text-decoration: none;
 }
 
-/* 
-#layer7 .card{
-    height: 100px;
-    width:100px;
-} */
 #layer7 {
     height: 272px;
     margin-top: 30px;
@@ -357,7 +358,7 @@ th {
 
 #footerrow1 a {
 
-    font-size: 10px;
+    font-size: 12px;
     line-height: 33px;
     text-transform: uppercase;
     color: #404142;
@@ -380,12 +381,12 @@ th {
     height: 43px;
 }
 
-footer{
+footer {
     background-color: #aab33c;
     color: beige;
 }
 
-#mainfootercon2{
+#mainfootercon2 {
     float: right;
 
 }
@@ -403,7 +404,7 @@ button {
 
 
 @media screen and (min-width:320px) and (max-width:767px) {
-    .navbar-collapse{
+    .navbar-collapse {
         position: absolute;
         z-index: 1;
         margin-top: 380px;
@@ -415,10 +416,7 @@ button {
         line-height: 20px;
     }
 
-    #pp
-    {
-        display:none;
-    }
+
 
     #l5content1 {
         font-size: 15px;
@@ -428,7 +426,9 @@ button {
         font-family: "Quicksand";
     }
 
-    #l5content2,#layer5content3,#l5content4 {
+    #l5content2,
+    #layer5content3,
+    #l5content4 {
         font-size: 12px;
         line-height: 14px;
     }
@@ -440,18 +440,36 @@ button {
         border: none;
     }
 
-    #mobilephn,#computer,#rectanglebox,#fifteen,#years {
+    #mobilephn,
+    #computer,
+    #rectanglebox,
+    #fifteen,
+    #years {
+        display: none;
+    }
+
+    #layer6 {
+        height: 100px;
+    }
+
+    #layer6 p,
+    #layer6 a {
+        font-size: 15px;
+    }
+
+    /* plan prices in table */
+    #pp {
         display: none;
     }
 
     #layer7 {
         height: 550px;
         margin-top: 30px;
-       
+
     }
 
-    .l7img{
-        margin-left:90px;
+    .l7img {
+        margin-left: 90px;
         height: 150px;
         width: 205px;
     }
@@ -470,6 +488,21 @@ button {
         line-height: 10px;
     }
 
+    #layer8{
+        height: 100px;
+    }
+
+    #layer8content{
+        font-size: 18px;
+    }
+
+    #layer8 button{
+        height:30px;
+        width:120px;
+        font-size: 10px;
+
+    }
+
     #footerhead {
         font-size: 18px;
         text-transform: uppercase;
@@ -477,9 +510,9 @@ button {
         font-weight: 700;
         font-family: "Quicksand";
     }
-    
+
     #footercon {
-    
+
         font-size: 14px;
         line-height: 22px;
         color: #404142;
@@ -487,9 +520,9 @@ button {
         font-family: "Quicksand";
         /* white-space: pre-line; */
     }
-    
+
     #footerrow1 a {
-    
+
         font-size: 15px;
         line-height: 33px;
         text-transform: uppercase;
@@ -499,13 +532,13 @@ button {
         text-decoration: none;
         /* white-space: pre-line; */
     }
-    
+
     #footerform input,
     #footerform form {
         border: none;
         white-space: pre-line;
     }
-    
+
     #footerformbutton {
         background-color: #aab33c;
         border: none;
@@ -518,8 +551,8 @@ button {
 }
 
 
-@media screen and (min-width:768px) and (max-width:1023px){
-    .navbar-collapse{
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .navbar-collapse {
         position: absolute;
         z-index: 1;
         margin-top: 380px;
@@ -531,11 +564,10 @@ button {
         line-height: 20px;
     }
 
-    #pp
-    {
-        display:none;
+    #pp {
+        display: none;
     }
-  
+
     #l5content1 {
         font-size: 18px;
         line-height: 22px;
@@ -544,10 +576,12 @@ button {
         font-family: "Quicksand";
     }
 
-    #l5content2,#layer5content3,#l5content4 {
+    #l5content2,
+    #layer5content3,
+    #l5content4 {
         font-size: 14px;
         line-height: 20px;
-        
+
     }
 
     #l5button {
@@ -558,21 +592,27 @@ button {
     }
 
 
-    #mobilephn,#computer,#rectanglebox,#fifteen,#years {
+
+
+    #mobilephn,
+    #computer,
+    #rectanglebox,
+    #fifteen,
+    #years {
         display: none;
     }
 
     #layer7 {
         height: 600px;
         margin-top: 30px;
-        
+
     }
 
-    .l7img{
-        margin-left:200px;
+    .l7img {
+        margin-left: 200px;
         width: 235px;
         height: 170px;
-        
+
     }
 
 
@@ -598,9 +638,9 @@ button {
         font-weight: 900;
         font-family: "Quicksand";
     }
-    
+
     #footercon {
-    
+
         font-size: 14px;
         line-height: 22px;
         color: #404142;
@@ -608,11 +648,11 @@ button {
         font-family: "Quicksand";
         /* white-space: pre-line; */
     }
-    
+
     /* the quicklinks in the footer */
-    
+
     #footerrow1 a {
-    
+
         font-size: 10px;
         line-height: 33px;
         text-transform: uppercase;
@@ -621,13 +661,13 @@ button {
         font-family: "Quicksand";
         text-decoration: none;
     }
-    
+
     #footerform input,
     #footerform form {
         border: none;
         white-space: pre-line;
     }
-    
+
     #footerformbutton {
         background-color: #aab33c;
         border: none;
