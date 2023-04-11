@@ -9,8 +9,8 @@ $(document).ready(function(){
         },
         'email':{
             required:true,
-            
-            pattern:/^[\w]+@[\.]+com+$/
+            pattern:/^[\w]+@+[\.]+com+$/
+            // pattern:/^[\w]+@+g2techsoft[\.]+com+$/
         },
        
         'phone':{
@@ -25,6 +25,9 @@ $(document).ready(function(){
     messages:{
         'name':{
             required:'required',
+            minlength:'Too short',
+            maxlength:'Too large',
+            pattern:'name must contain a higher and lowercase letter',
         },
         'email':{
             required:'required',

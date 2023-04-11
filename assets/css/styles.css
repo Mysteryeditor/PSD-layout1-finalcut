@@ -11,8 +11,9 @@
     font-family: Quicksand;
     src: url(/assets/fonts/Quicksand-VariableFont_wght.ttf);
 }
-/* the general css */
 
+
+/* the general css */
 
 /* for the first layer */
 .heading {
@@ -46,6 +47,12 @@
     font-family: "Quicksand";
     font-weight: bolder;
 }
+/* for the button in the first layer */
+#startnow{
+margin-left: 13%;
+}
+
+
 
 
 
@@ -69,20 +76,20 @@
 /* for the cards of the 3rd layer */
 #l3cards{
      background-color: rgb(229, 232, 196, 255); 
-     width: 16rem; 
-     height:16rem;
+     width: 14rem; 
+     height:14rem;
 }
 
 
 .layer3 .container .row .card img {
-    height: 150px;
-    width: 160px;
+    height: 130px;
+    width: 140px;
 }
 
 
 .layer3 .container .row .card p {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 24px;
     color: #404142;
     font-weight: 700;
     font-family: "Quicksand";
@@ -109,6 +116,7 @@
     font-family: "Quicksand";
 }
 
+/* the subcontent of layer4 */
 .layer4 .layer4subcon {
     text-transform: uppercase;
     font-weight: 700;
@@ -300,17 +308,20 @@ th {
 #layer7 .card {
     width: 250px;
     height: 50px;
+    /* for the image to be placed right to the content */
     flex-direction: row;
     margin-left: 60px;
     margin-top: -30px;
 
 }
 
+/* for the image inside the card */
 #layer7 .card img {
     width: 21%;
     height: 100%;
 }
 
+/* for the text inside the card */
 #layer7 .card-text {
     padding-top: 2px;
     font-size: 12px;
@@ -437,6 +448,11 @@ button {
         font-weight: bolder;
     }
 
+    /* for the button in the first layer */
+#startnow{
+    margin-left: 21%;
+    }
+
     #layer2con {
         font-size: 15px;
         line-height: 20px;
@@ -446,6 +462,18 @@ button {
         margin-left: auto;
         margin-right: auto;
     }
+/* layer4heading */
+    .layer4 .container .row .p1 {
+        font-size: 20px;
+        line-height: 22px;
+        max-width: 100%;
+    }
+
+    /* layer4subcontent */
+
+    .layer4 .layer4subcon {
+        font-size: 10px;
+    }
 
 
 
@@ -454,7 +482,6 @@ button {
         line-height: 15px;
         color: #404142;
         font-weight: 700;
-        font-family: "Quicksand";
     }
 
     #l5content2,
@@ -566,9 +593,6 @@ button {
     }
 
     #footerformbutton {
-        background-color: #aab33c;
-        border: none;
-        color: #ffffff;
         width: 109px;
         height: 43px;
     }
@@ -594,6 +618,20 @@ button {
         z-index: 1;
         margin-top: 380px;
         margin-left: 10px;
+    }
+
+    .heading .col>h2 {
+        font-size: 40px;
+    }
+
+    .heading .col>h3 {
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+        /* for the button in the first layer */
+#startnow{
+    margin-left: 25%;
     }
 
     #layer2con {
@@ -628,7 +666,9 @@ button {
         border: none;
     }
 
-
+    #layer6 p, #layer6 a {
+     font-size: 15px;;
+    }
 
 
     #mobilephn,
@@ -670,20 +710,13 @@ button {
 
     #footerhead {
         font-size: 16px;
-        text-transform: uppercase;
-        color: #404142;
-        font-weight: 900;
-        font-family: "Quicksand";
-    }
+         }
 
     #footercon {
 
         font-size: 14px;
         line-height: 22px;
-        color: #404142;
         font-weight: 400;
-        font-family: "Quicksand";
-        /* white-space: pre-line; */
     }
 
     /* the quicklinks in the footer */
@@ -692,11 +725,7 @@ button {
 
         font-size: 10px;
         line-height: 33px;
-        text-transform: uppercase;
-        color: #404142;
         font-weight: 700;
-        font-family: "Quicksand";
-        text-decoration: none;
     }
 
     #footerform input,
@@ -721,4 +750,19 @@ button {
         font-size: 10px;
         margin-top: 15px;
     }
+}
+
+@media screen and (min-width:1024px) {
+    #l5content2,#rectanglebox,#fifteen,#years{
+       display: none;
+    }
+    #footerrow1 a{
+        font-size: 10px;
+    }
+    #footer .col-lg-5 {
+        flex: 0 0 auto;
+        width: 27.6667%;
+    }
+
+  
 }
