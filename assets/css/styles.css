@@ -197,13 +197,15 @@ margin-left: 13%;
     font-family: 'Quicksand', sans-serif;
 }
 
-/* styles for the table */
+/* for the table */
+
 
 #tablehead {
     background-color: #aab33c;
     color: #ffffff;
     font-family: "Quicksand";
     font-size: 40px;
+
 }
 
 #tablesubhead {
@@ -211,16 +213,10 @@ margin-left: 13%;
 }
 
 .textp {
-    width: 157px;
-    height: 27px;
     font-size: xx-small;
     font-family: "Quicksand";
     ;
 
-}
-
-th {
-    height: 15px;
 }
 
 .table {
@@ -242,12 +238,13 @@ th {
     border-top-right-radius: 10px;
 }
 
-.table-striped tbody tr:nth-of-type(even) {
-    background-color: rgba(170, 179, 59, 0.3);
+.table-striped tbody td {
+    text-align: center;
+    background-color: rgba(237,238,215,255);
 }
 
-.table-striped tbody tr:nth-of-type(odd) {
-    background-color: rgb(255, 255, 255);
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(237, 238, 215, 255);
 }
 
 .table-striped tbody td:nth-of-type(odd) {
@@ -256,9 +253,10 @@ th {
 
 .tblep {
     white-space: pre-line;
-    font-weight: 100;
-    font-size: 12px;
+    font-weight: 300px;
+    font-size: xx-small;
     font-family: 'Quicksand', sans-serif;
+    height: 50px;
 
 }
 
@@ -280,9 +278,20 @@ th {
 
 }
 
-/* for the layer 6 */
+.fa-circle-check {
+    color: #aab33c;
+}
+
+
+
+
+
+
+/* for layer6 */
 #layer6 {
     background-image: url("/assets/images/layer6bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 170px;
 
 }
@@ -312,6 +321,7 @@ th {
     flex-direction: row;
     margin-left: 60px;
     margin-top: -30px;
+    background-color: #fdffe9;
 
 }
 
@@ -435,10 +445,22 @@ button {
         margin-top: 380px;
         margin-left: 10px;
     }
+
+    .nav-link{
+        font-size: 10px;
+    }
     
     
     .heading .col>h2 {
-        font-size: 50px;
+        font-size: 30px;
+    }
+
+    /* layer1content */
+    .heading .col>h3 {
+        color: beige;
+        font-weight: bolder;
+        max-width: 80%;
+        font-size: 15px;
     }
     
     .heading ul>button {
@@ -450,7 +472,10 @@ button {
 
     /* for the button in the first layer */
 #startnow{
-    margin-left: 21%;
+    margin-left: 31%;
+    height:20px;
+    width: 70px;
+    font-size: 7px;
     }
 
     #layer2con {
@@ -478,8 +503,8 @@ button {
 
 
     #l5content1 {
-        font-size: 15px;
-        line-height: 15px;
+        font-size: 12px;
+        line-height: 14px;
         color: #404142;
         font-weight: 700;
     }
@@ -487,7 +512,7 @@ button {
     #l5content2,
     #layer5content3,
     #l5content4 {
-        font-size: 12px;
+        font-size: 10px;
         line-height: 14px;
     }
 
@@ -612,7 +637,7 @@ button {
 
 /* media queries for tablet size devices */
 
-@media screen and (min-width:768px) and (max-width:968px) {
+@media screen and (min-width:768px) and (max-width:968px)  {
     .navbar-collapse {
         position: absolute;
         z-index: 1;
@@ -621,18 +646,30 @@ button {
     }
 
     .heading .col>h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .heading .col>h3 {
-        font-size: 15px;
+        font-size: 13px;
         max-width: 100%;
+    }
+
+    .nav-link{
+        font-size: 12px;
+    }
+
+    #layer1con{
+        margin-left: 30px;
     }
 
         /* for the button in the first layer */
 #startnow{
-    margin-left: 25%;
+    margin-left: 28%;
+    height:30px;
+    width: 90px;
+    font-size: 10px;
     }
+
 
     #layer2con {
         font-size: 15px;
@@ -752,10 +789,63 @@ button {
     }
 }
 
-@media screen and (min-width:1024px) {
-    #l5content2,#rectanglebox,#fifteen,#years{
-       display: none;
+@media screen and (min-width:969px)and (max-width:1025px) {
+
+         /* for the button in the first layer */
+#startnow{
+    margin-left: 20%;
     }
+
+    #rectanglebox {
+        position: absolute;
+        margin-left: -70px;
+        margin-top: 390px;
+    }
+    
+    #fifteen {
+        position: absolute;
+        font-size: 50px;
+        margin-top: 400px;
+        margin-left: -45px;
+        font-weight: 600;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    #years {
+        position: absolute;
+        margin-top: 417px;
+        font-size: 19px;
+        width: 20px;
+        line-height: 22px;
+        margin-left: 6px;
+        font-weight: 600;
+        font-family: 'Quicksand', sans-serif;
+    }
+   
+
+    #l5content2,
+    #layer5content3,
+    #l5content4 {
+        font-size: 10px;
+        line-height: 15px;
+
+    }
+
+    #layer7 .card {
+        width: 250px;
+        height: 50px;
+        /* for the image to be placed right to the content */
+        flex-direction: row;
+        margin-left: 20px;
+        margin-top: -30px;
+    
+    }
+
+
+
+   
+
+    
     #footerrow1 a{
         font-size: 10px;
     }
@@ -763,6 +853,10 @@ button {
         flex: 0 0 auto;
         width: 27.6667%;
     }
+
+
+
+
 
   
 }

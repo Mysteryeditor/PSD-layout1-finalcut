@@ -9,8 +9,7 @@ $(document).ready(function(){
         },
         'email':{
             required:true,
-            pattern:/^[\w]+@+[\.]+com+$/
-            // pattern:/^[\w]+@+g2techsoft[\.]+com+$/
+           pattern:/^[\w]+@+g2techsoft[\.]+com+$/
         },
        
         'phone':{
