@@ -23,13 +23,13 @@ $(document).ready(function(){
     },
     messages:{
         'name':{
-            required:'required',
+            required:'enter the name',
             minlength:'Too short',
             maxlength:'Too large',
             pattern:'name must contain a higher and lowercase letter',
         },
         'email':{
-            required:'required',
+            required:'Enter a email',
             pattern:'Enter a valid email address'
         },
         'phone':{
